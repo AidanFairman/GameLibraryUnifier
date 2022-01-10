@@ -3,9 +3,7 @@ using GameLibraryUnifier.Service;
 using GameLibraryUnifier.Steam.Credentials;
 
 namespace GameLibraryUnifier.Steam.Service{
-    public class SteamService : IService{
-        public SteamToken getToken(SteamCredentials credential){
-            return null;
-        }
+    public class SteamService : BaseService, IService{
+        
     }
 }
